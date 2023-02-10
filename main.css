@@ -1,0 +1,156 @@
+
+html {
+  min-width: 290px;
+  font-family: "ubuntu", sans-serif;
+  background: url(http://www.textures4photoshop.com/tex/thumbs/paper-texture-with-high-resolution-free-thumb39.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #F9F2E6;
+}
+
+html body {
+  line-height:1.5;
+}
+
+#svg1{
+  padding-right: 5px;
+  position: absolute;
+  left: 250px;
+  top:.85rem;
+}
+
+header h2 {
+  margin-left: 3px;
+}
+
+h2 #sgv2{
+  padding-right: 5px;
+  position: static;
+  top: -88px;
+  padding-left: 3px;
+  margin-bottom: -33px;
+}
+
+h2 #svg3{
+  padding-right: 5px;
+  position: static;
+  padding-left: 3px;
+  margin-bottom: -13px;
+}
+
+.secondbg { 
+  margin-top:1px;
+  padding-bottom: .3rem;
+  padding-top: 1px;
+  margin-bottom: 30px; 
+  border-radius: 12px;
+  background-color: #CDD0E8
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: 4px solid;
+  border-color: #574C36;
+}
+
+
+#navbar.nav-button {
+  height: 88%;
+  padding: 0px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  
+}
+
+li {
+  display: list-item;
+text-align: match-parent;
+}
+
+#navbar h1 {
+  text-align:center;
+  margin-left: -38px;
+  font-size: 23;
+  font-weight:bold;
+}
+
+#navbar li { 
+  border-top: 5px solid #574C36 ;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar ul {
+height: 88%;
+padding: 0;
+overflow-y: auto;
+overflow-x: hidden;
+}
+
+#navbar a {
+display: block;
+padding: 10px 30px;
+color: #191C38;;
+text-decoration: none;
+font-weight: bold;
+cursor: pointer;
+font-size: 18px;
+}
+
+#main-doc {
+  position: absolute;
+margin-left: 310px;
+padding: 20px;
+margin-bottom: 110px;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+  }
+
+section {
+  display: block;
+}
+
+.code-background {
+  display: block;
+text-align: left;
+white-space: pre-line;
+position: relative;
+word-break: normal;
+word-wrap: normal;
+line-height: 2;
+background-color: #f7f7f7;
+padding: 15px;
+margin: 10px;
+border-radius: 5px;
+}
+
+section article {
+color: #191C38;
+margin: 15px;
+font-size: 1.05em;
+}
+
+
+#footer{
+  padding: 3px 3px 3px 10px;
+}
+
+
+@media screen and (min-width: 480px) {
+  #body {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+  #navbar li {
+    font-size: 11px;
+  }
+}
